@@ -6,13 +6,15 @@ import HowItWorks from './assets/components/HowItWorks'; // Ensure correct expor
 import FAQ from './assets/components/FAQ';
 import Contact from './assets/components/Contact';
 import Footer from './assets/components/footer';
+import backgroundImage from './assets/pexels-scottwebb-2824173.jpg';
+
 
 function App() {
   return (
     <div className="relative w-full overflow-hidden">
       <Navbar />
       <Background />
-      <div className='relative bg-features-bg bg-cover bg-center py-16'>
+      <div className='relative  py-16' style={{ backgroundImage: `url(${backgroundImage})`}}>
       <FeaturesandBenefits />
       <HowItWorks />
       <FAQ />

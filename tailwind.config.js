@@ -5,7 +5,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-          'features-bg': "url('./src/assets/pexels-scottwebb-2824173.JPG')",
+          'features-bg': "url('./src/assets/pexels-scottwebb-2824173.jpg')",
         },
       },
     },
